@@ -176,7 +176,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,
+            //スクロール方向を逆転,,,
             <&zip_xy_to_scroll_mapper>;
     };
 
@@ -309,10 +309,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W             &kp E         &kp R     &kp T                                   &kp Y        &kp U  &kp I      &kp O          &lt 5 P
-&lt 2 A           &kp S             &kp D         &kp F     &kp G                                   &kp H        &kp J  &kp K      &kp L          &lt 7 MINUS
-&mt LEFT_SHIFT Z  &mt LEFT_SHIFT X  &kp C         &kp V     &kp B                                   &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH
-&kp LCTRL         &kp LEFT_WIN      &kp LEFT_ALT  &td_lang  &kp C_MUTE  &kp SPACE    &kp BACKSPACE  &lt 4 ENTER         &mo 3      &kp LG(LA(K))  &kp TILDE
+&kp Q             &kp W             &kp E         &kp R     &kp T                                   &kp Y        &kp U  &kp I      &kp O            &lt 5 P
+&lt 2 A           &kp S             &kp D         &kp F     &kp G                                   &kp H        &kp J  &kp K      &kp L            &lt 7 MINUS
+&mt LEFT_SHIFT Z  &mt LEFT_SHIFT X  &kp C         &kp V     &kp B                                   &kp N        &kp M  &kp COMMA  &kp DOT          &kp SLASH
+&kp LCTRL         &kp LEFT_WIN      &kp LEFT_ALT  &td_lang  &kp C_MUTE  &kp SPACE    &kp BACKSPACE  &lt 4 ENTER         &mo 3      &kp PRINTSCREEN  &kp TILDE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
