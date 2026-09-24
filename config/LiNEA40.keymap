@@ -176,7 +176,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,
+            //スクロール方向を逆転,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 
@@ -230,11 +230,6 @@
             key-positions = <28 29>;
         };
 
-        mb_for_drug {
-            bindings = <&mkp MB1>;
-            key-positions = <17 18>;
-        };
-
         delete {
             bindings = <&kp DELETE>;
             key-positions = <36 25>;
@@ -243,11 +238,6 @@
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
-        };
-
-        printscreen {
-            bindings = <&kp PRINTSCREEN>;
-            key-positions = <40 39>;
         };
     };
 
